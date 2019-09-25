@@ -15,6 +15,7 @@ namespace VRPD_WebApp.Controllers
             return View();
         }
 
+        [Route("Home/Contact")]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
