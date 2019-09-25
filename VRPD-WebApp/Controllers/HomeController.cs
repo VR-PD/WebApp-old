@@ -8,6 +8,7 @@ namespace VRPD_WebApp.Controllers
 {
     public class HomeController : Controller
     {
+        [Route("Home/About")]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -23,6 +24,9 @@ namespace VRPD_WebApp.Controllers
             return View();
         }
 
+        [Route("")]
+        [Route("Home")]
+        [Route("Home/Index")]
         public ActionResult Index()
         {
             return View();
