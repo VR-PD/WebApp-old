@@ -24,6 +24,8 @@ namespace VRPD_WebApp
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/main.css",
+                      "~/Content/util.css",
                       "~/Content/site.css"));
         }
     }
